@@ -1,0 +1,908 @@
+object	seq	name	mp1	mp2	mp3	mp4	mp5	mp6	mp7	mp8	mp9	det_box	progobj	post	bret	mp10	dec_pl
+141200	567	BTS Inventory	E	53	539		BUEXP	EMS						1	E		
+141210	568	Water Synergen inventory (interfaced)	E	53	539		BUEXP	EMS						1	E		
+141220	569	Fleet inventory - fuel (interfaced)	E	53	539		BUEXP	EMS						1	E		
+141221	570	Fleet inventory - parts (interfaced)	E	53	539		BUEXP	EMS						1	E		
+141240	571	Maximo inventory (interfaced)	E	53	539		BUEXP	EMS						1	E		
+141245	572	PBOT inventory	E	53	539		BUEXP	EMS							E		0
+141250	573	Parks MS2000 inventory	E	53	539		BUEXP	EMS						1	E		
+141260	574	BES Synergen inventory (interfaced)	E	53	539		BUEXP	EMS						1	E		
+4	2	External Revenue												0	R		
+40	3	Budgeted Beginning Fund Balance												0	R		
+400	14	Budgeted Beginning Fund Balance													R		
+400001	157	Budgeted Beginning Fund Balance	R	40	400			BEGBAL						1	R		
+41	4	Taxes												0	R		
+411	15	Current Year Property Taxes												0	R		
+411100	158	Taxes Multnomah	R	41	411			TAXES						1	R		
+411110	159	Taxes Clackamas	R	41	411			TAXES						1	R		
+411120	160	Taxes Washington	R	41	411			TAXES						1	R		
+412	16	Prior Year Property Taxes												0	R		
+412100	161	PY taxes Multnomah	R	41	412			TAXES						1	R		
+412110	162	PY taxes Clackamas	R	41	412			TAXES						1	R		
+412120	163	PY taxes Washington	R	41	412			TAXES						1	R		
+413	17	Payments In Lieu Of Taxes												0	R		
+413000	164	Payments in lieu of taxes	R	41	413			TAXES						1	R		
+414	18	Lodging Taxes												0	R		
+414000	165	Lodging taxes	R	41	414			TAXES						1	R		
+414005	166	Audit recovery - lodging taxes	R	41	414			TAXES						1	R		
+415	19	Miscellaneous Taxes												0	R		0
+415000	167	Miscellaneous tax	R	41	415			TAXES						1	R		0
+415010	168	Miscellaneous tax refunds	R	41	415			TAXES						1	R		0
+415020	169	Miscellaneous tax credit card fees	R	41	415			TAXES						1	R		0
+42	5	Licenses And Permits												0	R		
+421	20	Business Licenses												0	R		
+421100	170	Business licenses	R	42	421			LICENSES						1	R		
+421105	171	Audit recovery - business licenses	R	42	421			LICENSES						1	R		
+421110	172	Business license refunds	R	42	421			LICENSES						1	R		
+421120	173	Business license credits	R	42	421			LICENSES						1	R		
+422	21	Business Improvement Districts												0	R		
+422100	174	Lloyd development	R	42	422			LICENSES						1	R		
+422110	175	Downtown development	R	42	422			LICENSES						1	R		
+423	22	Skating Rink-Lighting												0	R		
+423100	176	Skating rink - lighting	R	42	423			LICENSES						1	R		
+424	23	Business License Surcharge												0	R		
+424100	177	Surcharge revenue	R	42	424			LICENSES						1	R		
+425	24	Public Utility Licenses												0	R		
+425100	178	Public utility licenses	R	42	425			LICENSES						1	R		
+425105	179	Audit recovery - Utility license/franchi	R	42	425			LICENSES						1	R		
+426	25	Construction Permits												0	R		
+426100	180	Construction permits	R	42	426			LICENSES						1	R		
+429	26	Other Permits												0	R		
+429100	181	Other permits - penalties	R	42	429			LICENSES						1	R		
+43	6	Service Charges And Fees												0	R		
+431	27	Public Works And Utility Charges												0	R		
+431100	182	Public works - utility chrg	R	43	431			SC						1	R		
+431103	183	Sewer charges - wholesale agreements	R	43	431			SC						1	R		
+431109	184	Private pump stations	R	43	431			SC						1	R		
+431110	185	Storm sewer discounts	R	43	431			SC						1	R		
+431111	186	Stormwater credits	R	43	431			SC						1	R		
+431200	187	Liens rec private plumbing	R	43	431			SC						1	R		
+431300	188	Wash Co traffic impact fee	R	43	431			SC						1	R		
+431400	189	Contribution	R	43	431			SC						1	R		
+431401	190	Line & branch - residential	R	43	431			SC						1	R		
+431402	191	Line & branch - commercial	R	43	431			SC						1	R		
+431403	192	SDC - residential	R	43	431			SC						1	R		
+431404	193	SDC - commercial	R	43	431			SC						1	R		
+431406	194	Interim payments - interest	R	43	431			SC						1	R		
+431407	195	SDC-Safety Net payments	R	43	431			SC						1	R		
+431408	196	Engineering permit fees	R	43	431			SC						1	R		
+431409	197	Liens receivable principal	R	43	431			SC						1	R		
+431500	198	Miscellaneous utility charges & fees	R	43	431			SC						1	R		
+432	28	Health Care Charges												0	R		
+432110	199	City contr - self insured active - fund	R	43	432			SC						1	R		
+432111	200	City contr - self insured active - fund	R	43	432			SC						1	R		
+432120	201	Employee contr - self insured active - f	R	43	432			SC						1	R		
+432121	202	Employee contr - self insured active - f	R	43	432			SC						1	R		
+432130	203	COBRA contribution - self insured plans	R	43	432			SC						1	R		
+432140	204	Retiree contribution - self insured plan	R	43	432			SC						1	R		
+432150	205	Internal admin fees - self insured - fun	R	43	432			SC						1	R		
+432160	206	Oregon Medical Insurance Pool Fees	R	43	432			SC						1	R		
+432170	207	Internal admin fees - insured - fund 700	R	43	432			SC						1	R		
+432180	208	VRIP- Voluntary Retirement Incentive Pro	R	43	432			SC						1	R		0
+432181	209	Temporary benefit extension at separation of ser	R	43	432			SC						1	R		0
+432182	210	Target severance	R	43	432			SC						1	R		0
+434	29	Inspection And Parking Fees												0	R		
+434100	211	Inspection fees	R	43	434			SC						1	R		
+434200	212	Parking fees	R	43	434			SC	GTR					1	R		
+434210	213	Parking Fees - On-Street Meters	R	43	434			SC	GTR					1	R		0
+434220	214	Parking Fees - Parking Permits	R	43	434			SC	GTR					1	R		0
+434221	215	Parking Fees - Area Parking Permits	R	43	434			SC	GTR					1	R		0
+434300	216	Parking fees over-short	R	43	434			SC	GTR					1	R		
+435	30	Parking Fines												0	R		
+435100	217	Parking fines	R	43	435			SC	GTR					1	R		
+436	31	Parks And Rec Facilities												0	R		
+436100	218	Parks & rec. facilities	R	43	436			SC						1	R		
+437	32	Concessions												0	R		
+437100	219	Concessions	R	43	437			SC						1	R		
+438	33	Rents And Reimbursements												0	R		
+438100	220	Rents and reimbursements	R	43	438			SC						1	R		
+438101	221	Rents - real estate	R	43	438			SC						1	R		
+438103	222	Operations and maintenance reimbursements	R	43	438			SC						1	R		0
+438500	223	Spectator Facilities - user fees	R	43	438			SC						1	R		
+438510	224	Spectator Facilities - suite fee	R	43	438			SC						1	R		
+439	34	Other Service Charges												0	R		
+439100	225	Miscellaneous service charges and fees	R	43	439			SC						1	R		
+439105	226	TriMet admin fees	R	43	439			SC						1	R		0
+439110	227	Trustee fees	R	43	439			SC						1	R		
+439200	228	Employee reimbursement - copy/print	R	43	439			SC						1	R		
+439210	229	Employee reimbursement - telephone	R	43	439			SC						1	R		
+439300	230	Financing charges	R	43	439			SC						1	R		
+439400	231	Collection fee	R	43	439			SC						1	R		
+439500	232	Penalty	R	43	439			SC						1	R		
+439510	233	Liquidated Damages	R	43	439			SC						1	R		0
+439600	234	Collection costs	R	43	439			SC						1	R		
+439700	235	Prescription and experience rebates	R	43	439			SC						1	R		
+439800	236	FSA forfeitures	R	43	439			SC						1	R		
+439900	237	Service fee	R	43	439			SC						1	R		
+439910	238	Public Record Requests Service Fee	R	43	439			SC						1	R		0
+44	7	Grants Intergovernmental Revenues												0	R		
+441	35	Grant Revenue												0	R		
+441100	239	Grant revenue	R	44	441			INTERGOV						1	R		
+441500	240	Accrued grant revenue	R	44	441			INTERGOV						1	R		
+443	36	Grant Program Income												0	R		
+443100	241	Grant program income	R	44	443			INTERGOV						1	R		
+444	37	Donations												0	R		
+444100	242	Donations	R	44	444			MISC						1	R		
+445	38	IDC Grant												0	R		
+445100	243	Grant IDC revenue	R	44	445			INTERGOV						1	R		
+446	39	State And Federal Shared												0	R		
+446100	244	State shared rev	R	44	446			INTERGOV	GTR					1	R		
+446110	245	SSR - liquor per capita - ORS 221.760	R	44	446			INTERGOV						1	R		
+446111	246	ST shared rev (liquor tax) - ORS 221 770	R	44	446			INTERGOV						1	R		
+446120	247	State shared rev - cigarette taxes	R	44	446			INTERGOV						1	R		
+446200	248	State cost sharing	R	44	446			INTERGOV	GTR					1	R		
+446500	249	Federal cost sharing	R	44	446			INTERGOV						1	R		
+447	40	County Cost Sharing												0	R		
+447200	250	County cost sharing	R	44	447			INTERGOV	GTR					1	R		
+448	41	Local Shared												0	R		
+448100	251	Local shared rev	R	44	448			INTERGOV	GTR					1	R		
+448110	252	Local admin federal funds	R	44	448			INTERGOV						1	R		
+448200	253	Local cost sharing	R	44	448			INTERGOV						1	R		
+449	42	City Overhead Charges												0	R		
+449100	254	City overhead charges	R	44	449			INTERGOV						1	R		
+45	8	Revenues From Debt Proceeds, Loans, Interest												0	R		
+450020	255	Intrbk trnsfr rev-TA	R	64	640			FNDXFERS						1	R		0
+451	43	Bond And Note Sales												0	R		
+451100	256	Bond sales	R	45	451			BNDNT						1	R		
+451200	257	Note sales	R	45	451			BNDNT						1	R		
+451250	258	Refunding bond sales	R	45	451			BNDNT						1	R		
+451300	259	Bond and note premium	R	45	451			BNDNT						1	R		
+451400	260	Loan proceeds	R	45	451			BNDNT						1	R		
+451500	261	Internal loan proceeds	R	45	451			BNDNT						1	R		
+452	44	Loan Repayments												0	R		
+452100	262	Loan repayments	R	45	452			MISC						1	R		
+452200	263	Predevelopment loan payments	R	45	452			MISC						1	R		0
+453	45	Interest Received On Loans Given												0	R		
+453100	264	Interest payments -  liens	R	45	453			MISC						1	R		
+454	46	All Other Interest Received												0	R		
+454100	265	Interest income	R	45	454			MISC	GTR					1	R		
+454200	266	Interest on investments	R	45	454			MISC	GTR					1	R		
+454205	267	Realized gain/loss – Hydro	R	45	454			MISC						1	R		0
+46	9	Sales Of Tangible Assets												0	R		
+461	47	Sale of Capital Assets												0	R		
+461500	268	Asset sales clearing - modified	R	46	461			MISC						1	R		
+461900	269	Gain on asset dispositions - modified	R	46	461			MISC						1	R		
+462	48	Gaap Gains From Asset Sales												0	R		
+462500	270	GAAP revenue clearg	R	46	462			MISC						1	R		
+465	49	Inventory Sales												0	R		
+465100	271	Inventory held for resale	R	46	465			MISC						1	R		
+47	10	Other Sales												0	R		
+471	50	Power Sales												0	R		
+471100	272	Power sales	R	47	471			MISC						1	R		
+475	51	Sales - Other												0	R		
+475100	273	Sales miscellaneous	R	47	475			MISC						1	R		
+475190	274	Overpayments - revenue	R	47	475			MISC						1	R		
+48	11	Miscellaneous Revenues												0	R		
+481	52	Refunds												0	R		
+481100	275	Refunds	R	48	481			MISC						1	R		
+481110	276	Refunds - employee	R	48	481			MISC						1	R		
+481190	277	Miscellaneous refund	R	48	481			MISC						1	R		
+482	53	Assessments												0	R		
+482100	278	Assessmt payments - open	R	48	482			MISC						1	R		
+482110	279	Assessments - commercial	R	48	482			MISC						1	R		
+482200	280	Assessmt payments - bonded	R	48	482			MISC						1	R		
+483	54	Fines												0	R		
+483100	281	Fines - false alarms	R	48	483			MISC						1	R		
+483110	282	Fines	R	48	483			MISC						1	R		
+484	55	Non-Exchange Transactions												0	R		
+484000	283	NSF fees	R	48	484			MISC						1	R		
+484100	284	Nonexchange transactions	R	48	484			MISC						1	R		
+487	56	General Fund Discretionary													R		
+487100	285	General Fund Discretionary Offset	R	48	487			GFD						1	R		
+487110	286	General Fund Discretionary Ongoing	R	48	487			GFD				V		1	R		0
+487120	287	General Fund Discretionary One-Time	R	48	487			GFD				V		1	R		0
+487200	288	General Fund Overhead Offset	R	48	487			OVD						1	R		
+487210	289	General Fund Overhead	R	48	487			OVD				V		1	R		0
+489	57	Miscellaneous Revenues												0	R		
+489000	290	Third party recovery	R	48	489			MISC						1	R		
+489010	291	Subrogation	R	48	489			MISC						1	R		
+489020	292	Employee contributions	R	48	489			MISC						1	R		
+489030	293	Other miscellaneous	R	48	489			MISC						1	R		
+489100	294	Pension Recovery	R	48	489			MISC						1	R		0
+489500	295	Rents and Reimbursements - non-operating	R	48	489			MISC						1	R		0
+489951	296	Temporary - zero bal revenues conversion	R	49	489			SC						1	R		0
+489952	297	Temp - zero bal interagency rev conversi	R	49	489			MISC						1	R		0
+489953	298	Temporary - payroll rev contrib conv  -D	R	49	489			MISC						1	R		0
+489960	299	Interagency revenue conversion	R	49	489			IAREV						1	R		
+489961	300	I/A General Fund overhead rev conversion	R	49	489			FNDXFERS						1	R		
+489962	301	I/A equipment cash transfers rev convers	R	49	489			IAREV						1	R		
+489963	302	I/A federal grants transfers rev convers	R	49	489			FNDXFERS						1	R		
+489964	303	I/A other cash transfers rev conversion	R	49	489			FNDXFERS						1	R		
+49	12	Transfers, Conversion												0	R		
+499	58	Transfers Conversion												0	R		
+5	77	External Expenses												0	E		
+50	78	Unappropriated Fund Balance												0	E		
+500	92	Unappropriated Ending Balance													E		
+500001	447	Unappropriated Ending Fund Balance	E	50	500			ENDBAL						1	E		
+500002	448	Reserve for Future Expenditures	E	50	500			ENDBAL						1	E		
+500003	449	Reserve for Debt Service	E	50	500			ENDBAL						1	E		
+51	79	Personal Services												0	E		
+511	93	Salaries And Wages												0	E		
+511100	450	Regular (perm full time)	E	51	511		BUEXP	PERSONAL						1	E		
+511101	451	Regular leave	E	51	511		BUEXP	PERSONAL						1	E		
+511102	452	Regular leave payout	E	51	511		BUEXP	PERSONAL						1	E		
+511199	453	Payroll Offset -expense	E	51	511		BUEXP	PERSONAL						1	E		
+511200	454	Limited term (both part and full time)	E	51	511		BUEXP	PERSONAL						1	E		
+511201	455	Limited term leave	E	51	511		BUEXP	PERSONAL						1	E		
+511202	456	Limited term payout	E	51	511		BUEXP	PERSONAL						1	E		
+511300	457	Part-time - Budgeted	E	51	511		BUEXP	PERSONAL						1	E		
+511301	458	Part time leave	E	51	511		BUEXP	PERSONAL						1	E		
+511302	459	Part time leave payout	E	51	511		BUEXP	PERSONAL						1	E		
+511400	460	Casual ? Unbudgeted (full and part-time)	E	51	511		BUEXP	PERSONAL						1	E		
+511500	461	WC supplemental pay ? bureau portion	E	51	511		BUEXP	PERSONAL						1	E		
+512	94	Overtime												0	E		
+512100	462	Overtime	E	51	512		BUEXP	PERSONAL						1	E		
+513	95	Premium Pay												0	E		
+513100	463	Premium pay	E	51	513		BUEXP	PERSONAL						1	E		
+513200	464	Workers comp - employer share	E	51	513		BUEXP	PERSONAL						1	E		
+513300	465	Lump sum payments	E	51	513		BUEXP	PERSONAL						1	E		
+513500	466	Holiday Premium 1.5	E	51	513		BUEXP	PERSONAL						1	E		0
+514	96	Benefits												0	E		
+514100	467	Benefits	E	51	514		BUEXP	PERSONAL						1	E		
+514110	468	Self Insured - admin fee	E	54	549		BUEXP	EMS						1	E		
+514120	469	Self insured - network access fees	E	54	549		BUEXP	EMS						1	E		
+514130	470	Self insured - med claims	E	51	514		BUEXP	PERSONAL						1	E		
+514140	471	Self insured - prescription claims	E	51	514		BUEXP	PERSONAL						1	E		
+514150	472	Health plan network fees	E	51	514		BUEXP	PERSONAL						1	E		
+514160	473	Alternate care network	E	54	549		BUEXP	EMS						1	E		
+514170	474	Case management/UR	E	54	549		BUEXP	EMS						1	E		
+514200	475	Outside providers	E	51	514		BUEXP	PERSONAL						1	E		
+514300	476	Opt-outs (bureau cost)	E	51	514		BUEXP	PERSONAL						1	E		
+514500	477	PERS pickup (both the 6% and 9%)	E	51	514		BUEXP	PERSONAL						1	E		
+514510	478	PERS pension - tier 1	E	51	514		BUEXP	PERSONAL						1	E		
+514520	479	PERS pension - tier 2	E	51	514		BUEXP	PERSONAL						1	E		
+514540	480	OPSRP (all - sworn and non-sworn)	E	51	514		BUEXP	PERSONAL						1	E		
+514550	481	OPSRP pickup (all - sworn and non-sworn)	E	51	514		BUEXP	PERSONAL						1	E		
+514560	482	PERS military pension	E	51	514		BUEXP	PERSONAL						1	E		
+514610	483	Social security ER share	E	51	514		BUEXP	PERSONAL						1	E		
+514620	484	Medicare ER share	E	51	514		BUEXP	PERSONAL						1	E		
+514630	485	Unemployment Claims	E	51	514		BUEXP	PERSONAL						1	E		
+514700	486	TriMet payroll tax	E	51	514		BUEXP	PERSONAL						1	E		
+514800	487	Trip Reduction Incentive Program (TRIP)	E	51	514		BUEXP	PERSONAL						1	E		
+515	97	Open												0	E		
+516	98	Open												0	E		
+517	99	Open												0	E		
+518	100	Open												0	E		
+519	101	Leave Accrual													E		
+52	80	Services External												0	E		
+521	102	Professional Services												0	E		
+521000	488	Professional services	E	52	521		BUEXP	EMS						1	E		
+521100	489	Consulting	E	52	521		BUEXP	EMS						1	E		
+521130	490	Computer consulting	E	52	521		BUEXP	EMS						1	E		
+521210	491	Legal	E	52	521		BUEXP	EMS						1	E		
+521220	492	Audit	E	52	521		BUEXP	EMS						1	E		
+521230	493	Actuarial	E	52	521		BUEXP	EMS						1	E		
+521240	494	Claims investigation	E	52	521		BUEXP	EMS						1	E		
+521300	495	Purchased labor	E	52	521		BUEXP	EMS						1	E		
+521732	496	MHN Caremark	E	52	521		BUEXP	EMS						1	E		
+521900	497	Other professional services	E	52	521		BUEXP	EMS						1	E		
+521920	498	Medical bills processing	E	52	521		BUEXP	EMS						1	E		
+522	103	Utilities												0	E		
+522000	499	Utilities	E	52	522		BUEXP	EMS						1	E		
+522100	500	Electricity	E	52	522		BUEXP	EMS						1	E		
+522200	501	Water - Sewer	E	52	522		BUEXP	EMS						1	E		
+522300	502	Natural gas	E	52	522		BUEXP	EMS						1	E		
+522400	503	Heating oil	E	52	522		BUEXP	EMS						1	E		
+522500	504	Garbage	E	52	522		BUEXP	EMS						1	E		
+522600	505	Waste disposal	E	52	522		BUEXP	EMS						1	E		
+522700	506	Telephone	E	52	522		BUEXP	EMS						1	E		
+523	104	Rentals												0	E		
+523000	507	Equipment rental	E	52	523		BUEXP	EMS						1	E		
+524	105	Repair & Maintenance												0	E		
+524000	508	Repair & maintenance services	E	52	524		BUEXP	EMS						1	E		
+524100	509	Outside contract labor	E	52	524		BUEXP	EMS						1	E		
+524300	510	Parking lot maintenance	E	52	524		BUEXP	EMS						1	E		
+524500	511	Towing	E	52	524		BUEXP	EMS						1	E		
+524600	512	Janitorial services	E	52	524		BUEXP	EMS						1	E		
+524800	513	Computer repair & maint	E	52	524		BUEXP	EMS						1	E		
+525	106	Non-Capital Improvements												0	E		
+525000	514	Non-capital improvement	E	52	525		BUEXP	EMS						1	E		
+529	107	Other Services												0	E		
+529000	515	Miscellaneous services	E	52	529		BUEXP	EMS						1	E		
+529001	516	Outgoing Grant-Subrecipients	E	52	529		BUEXP	EMS						1	E		
+529002	517	Outgoing Grant - Beneficiary	E	52	529		BUEXP	EMS						1	E		
+529003	518	Outgoing loan disbursements	E	52	529		BUEXP	EMS						1	E		
+529004	519	Outgoing Grant - Contractor	E	52	529		BUEXP	EMS						1	E		
+529005	520	Program income expended	E	52	529		BUEXP	EMS						1	E		
+529006	521	Program income offset	E	52	529		BUEXP	EMS						1	E		
+529010	522	Printing & repro	E	52	529		BUEXP	EMS						1	E		
+529030	523	Advertising	E	52	529		BUEXP	EMS						1	E		
+529050	524	Communication	E	52	529		BUEXP	EMS						1	E		
+529070	525	Replacement Bus Passes	E	52	529		BUEXP	EMS						1	E		0
+529080	526	Postage	E	52	529		BUEXP	EMS						1	E		
+529090	527	Freight charges	E	52	529		BUEXP	EMS						1	E		
+529095	528	Bank Card Fees	E	52	529		BUEXP	EMS						1	E		0
+529100	529	Non-professional services	E	52	529		BUEXP	EMS						1	E		
+529210	530	Data processing services	E	52	529		BUEXP	EMS						1	E		
+529300	531	Laundry	E	52	529		BUEXP	EMS						1	E		
+529400	532	Shop fabrication/wb inventory	E	52	529		BUEXP	EMS						1	E		
+529500	533	Taxes	E	52	529		BUEXP	EMS						1	E		
+529600	534	Insurance	E	52	529		BUEXP	EMS						1	E		
+529700	535	Risk mgmt claims pay	E	52	529		BUEXP	EMS						1	E		
+529721	536	Self insd claims pay	E	52	529		BUEXP	EMS						1	E		
+529800	537	Local match payments	E	52	529		BUEXP	EMS						1	E		
+529900	538	Other misc. services	E	52	529		BUEXP	EMS						1	E		
+53	81	Materials External												0	E		
+531	108	Office Supplies												0	E		
+531000	539	Office supplies	E	53	531		BUEXP	EMS						1	E		
+532	109	Operating Supplies												0	E		
+532000	540	Operating supplies	E	53	532		BUEXP	EMS						1	E		
+532200	541	Gen maintenance supplies	E	53	532		BUEXP	EMS						1	E		
+532350	542	Computer supplies - software	E	53	532		BUEXP	EMS						1	E		
+532355	543	Computer supplies - hardware	E	53	532		BUEXP	EMS						1	E		
+532500	544	Janitorial supplies	E	53	532		BUEXP	EMS						1	E		
+532600	545	Fuel	E	53	532		BUEXP	EMS						1	E		
+532610	546	Gasoline	E	53	532		BUEXP	EMS						1	E		
+532620	547	Diesel	E	53	532		BUEXP	EMS						1	E		
+533	110	Repair & Maintenance Supplies												0	E		
+533000	548	Repair & maintenance supplies	E	53	533		BUEXP	EMS						1	E		
+533100	549	Electrical supplies	E	53	533		BUEXP	EMS						1	E		
+533300	550	Construction & building supplies	E	53	533		BUEXP	EMS						1	E		
+533400	551	Motor vehicle supply & parts	E	53	533		BUEXP	EMS						1	E		
+533600	552	Service & distribution supplies	E	53	533		BUEXP	EMS						1	E		
+534	111	Equipment Expensed												0	E		
+534000	553	Minor equipment & tools	E	53	534		BUEXP	EMS						1	E		
+534200	554	Computer equipment	E	53	534		BUEXP	EMS						1	E		
+535	112	Clothing												0	E		
+535000	555	Clothing & uniforms	E	53	535		BUEXP	EMS						1	E		
+535001	556	Uniforms (dress)	E	53	535		BUEXP	EMS						1	E		
+535002	557	Uniforms (turn-out)	E	53	535		BUEXP	EMS						1	E		
+535003	558	Uniforms (work)	E	53	535		BUEXP	EMS						1	E		
+535004	559	Badges	E	53	535		BUEXP	EMS						1	E		
+535005	560	Boots	E	53	535		BUEXP	EMS						1	E		
+539	113	Other Supplies												0	E		
+539000	561	Other commodities external	E	53	539		BUEXP	EMS						1	E		
+539010	562	Storeroom supplies	E	53	539		BUEXP	EMS						1	E		
+539100	563	Food	E	53	539		BUEXP	EMS						1	E		
+539500	564	Subrecipient purchases over $4,999	E	53	539		BUEXP	EMS						1	E		
+539501	565	Subrecipient purchases under $5,000	E	53	539		BUEXP	EMS						1	E		0
+539910	566	Gain or loss on inventory	E	53	539		BUEXP	EMS						1	E		
+54	82	Other Services And Materials												0	E		
+541	114	Education												0	E		
+541000	575	Education	E	54	541		BUEXP	EMS						1	E		
+541100	576	Tuition	E	54	541		BUEXP	EMS						1	E		
+541200	577	Subscriptions & public	E	54	541		BUEXP	EMS						1	E		
+541300	578	Dues	E	54	541		BUEXP	EMS						1	E		
+542	115	Travel												0	E		
+542000	579	Local travel	E	54	542		BUEXP	EMS						1	E		
+542100	580	Local mileage	E	54	542		BUEXP	EMS						1	E		
+542200	581	Mileage reimbursement	E	54	542		BUEXP	EMS						1	E		
+542300	582	Local other	E	54	542		BUEXP	EMS						1	E		
+542400	583	Out-of-town travel	E	54	542		BUEXP	EMS						1	E		
+543	116	Open												0	E		
+544	117	Rentals												0	E		
+544000	584	Space rental	E	54	544		BUEXP	EMS						1	E		
+544100	585	Office rent	E	54	544		BUEXP	EMS						1	E		
+546	118	Refunds												0	E		
+546000	586	Refunds	E	54	546		BUEXP	EMS						1	E		
+546100	587	Business license fee	E	54	546		BUEXP	EMS						1	E		
+546200	588	Utility License Fees	E	54	546		BUEXP	EMS						1	E		0
+547	119	Retirement System Payment												0	E		
+547000	589	Retirement system payment	E	54	547		BUEXP	EMS						1	E		
+547100	590	Fire and Police benefits and refunds	E	54	547		BUEXP	EMS						1	E		
+548	120	Operating Leases												0	E		
+548000	591	Facilities operating lease	E	54	548		BUEXP	EMS						1	E		
+548100	592	Equipment operating lease	E	54	548		BUEXP	EMS						1	E		
+549	121	Miscellaneous												0	E		
+549000	593	Miscellaneous	E	54	549		BUEXP	EMS						1	E		
+549100	594	Moving expense	E	54	549		BUEXP	EMS						1	E		
+549200	595	Licenses/permit	E	54	549		BUEXP	EMS						1	E		0
+549500	596	Pollution remediation	E	54	549		BUEXP	EMS						1	E		
+549800	597	Loan Proceeds Disbursement - Modified Ac	E	54	549		BUEXP	EMS						1	E		0
+549910	598	AP discount lost	E	54	549		BUEXP	EMS						1	E		
+549920	599	Cash over and short	E	54	549		BUEXP	EMS						1	E		
+549990	600	Underpayments - expense	E	54	549		BUEXP	EMS						1	E		
+549995	601	Advance recoveries YE Budgetary	E	54	549		BUEXP	EMS						1	E		0
+55	83	Expenses For Debt Repayment And Interest												0	E		
+550020	602	Intrbk trnsfr exp-TA	E	65	650		FUEXP	FNDXFER						1	E		0
+551	122	Principal												0	E		
+551100	603	Debt retirement	E	55	551		FUEXP	BOND						1	E		
+551200	604	Bonded debt retirement	E	55	551		FUEXP	BOND						1	E		
+551250	605	Bond & note refundg-princ- Budget exempt	E	55	551		FUEXP	BOND						1	E		
+551275	606	Bond & note adv refund- Budget exempt	E	55	551		FUEXP	BOND						1	E		0
+551300	607	Note retirement	E	55	551		FUEXP	BOND						1	E		
+551400	608	Taxable debt retirement	E	55	551		FUEXP	BOND						1	E		
+555	123	Interest												0	E		
+555100	609	Interest	E	55	555		FUEXP	BOND						1	E		
+555200	610	Bonded debt interest	E	55	555		FUEXP	BOND						1	E		
+555210	611	DNU  Accreted interest	E	55	555		FUEXP	BOND						1	E		0
+555250	612	Bond & note refund - int - Budget exempt	E	55	555		FUEXP	BOND						1	E		0
+555300	613	Interest on notes	E	55	555		FUEXP	BOND						1	E		
+555500	614	DNU  Amortized Premium/Discount on Bonds	E	55	555		FUEXP	BOND						1	E		
+555600	615	DNU  Amortized of loss - bond discount	E	55	555		FUEXP	BOND						1	E		
+555910	616	Taxable debt interest	E	55	555		FUEXP	BOND						1	E		
+557	124	Debt Issuance Costs												0	E		
+557100	617	Debt issuance costs	E	55	557		FUEXP	BOND						1	E		
+557110	618	Debt issuance costs - Budget exempt	E	55	557		FUEXP	BOND						1	E		
+557205	619	Bond and Note Discount - Budget exempt	E	55	557		FUEXP	BOND						1	E		0
+557210	620	Bond & Note Discount	E	55	557		FUEXP	BOND						1	E		
+56	84	Depreciation - Modified Accrual												0	E		
+561	125	Capital													E		
+561100	621	Land capital expense mod accrual	E	56	561		BUEXP	CAPITAL						1	E		
+561200	622	Land use rights capital exp mod accr	E	56	561		BUEXP	CAPITAL						1	E		
+561210	623	Owning rights capital exp mod accr	E	56	561		BUEXP	CAPITAL						1	E		
+561300	624	Buildings capital expense modified accru	E	56	561		BUEXP	CAPITAL						1	E		
+561400	625	Improvements to land capital expense mod	E	56	561		BUEXP	CAPITAL						1	E		
+561500	626	Equipment capital expense modified accru	E	56	561		BUEXP	CAPITAL						1	E		
+561600	627	Computer software capital exp mod accr	E	56	561		BUEXP	CAPITAL						1	E		
+561610	628	Depr land use right capital exp mod accr	E	56	561		BUEXP	CAPITAL						1	E		
+561620	629	Depr owning rights capital exp mod accr	E	56	561		BUEXP	CAPITAL						1	E		
+561700	630	Infrastructure capital expense modified	E	56	561		BUEXP	CAPITAL						1	E		
+561710	631	Infrastructureother capital expense mod	E	56	561		BUEXP	CAPITAL						1	E		
+561800	632	Buildings capital leases -  modified acc	E	56	561		BUEXP	CAPITAL						1	E		
+561810	633	Equipment capital leases -  modified acc	E	56	561		BUEXP	CAPITAL						1	E		
+562	126	Depreciation												0	E		
+562100	634	Mod depr: Land	E	56	562		BUEXP	CAPITAL						1	E		
+562200	635	Mod depr: Land use rights	E	56	562		BUEXP	CAPITAL						1	E		
+562210	636	Mod depr: Owning rights	E	56	562		BUEXP	CAPITAL						1	E		
+562300	637	Mod depr: Buildings	E	56	562		BUEXP	CAPITAL						1	E		
+562400	638	Mod depr: Improvements to land	E	56	562		BUEXP	CAPITAL						1	E		
+562500	639	Mod depr: Equipment	E	56	562		BUEXP	CAPITAL						1	E		
+562600	640	Mod depr: Computer software	E	56	562		BUEXP	CAPITAL						1	E		
+562610	641	Mod depr: Depr land use rights	E	56	562		BUEXP	CAPITAL						1	E		
+562620	642	Mod depr: Depr owning rights	E	56	562		BUEXP	CAPITAL						1	E		
+562700	643	Mod depr: Infrastructure Water	E	56	562		BUEXP	CAPITAL						1	E		
+562710	644	Mod depr: Infrastructure Others	E	56	562		BUEXP	CAPITAL						1	E		
+562800	645	Mod depr: Buildings capital leases	E	56	562		BUEXP	CAPITAL						1	E		
+562810	646	Mod depr: Equipment capital leases	E	56	562		BUEXP	CAPITAL						1	E		
+562900	647	Mod depr: Contruction in progress	E	56	562		BUEXP	CAPITAL						1	E		
+562950	648	Mod depr: Interfund purchase	E	56	562		BUEXP	CAPITAL						1	E		
+562960	649	Mod depr: Interfund purchase	E	56	562		BUEXP	CAPITAL						1	E		
+563	127	Capital Outlay - Project Expenses												0	E		
+563100	650	Capital expend - PTE - capital projects	E	56	563		BUEXP	CAPITAL						1	E		
+563200	651	Cap exp - inventory - capital projects -	E	56	563		BUEXP	CAPITAL						1	E		
+563300	652	Cap exp - construction - cap projects -	E	56	563		BUEXP	CAPITAL						1	E		
+563310	653	Capex - vehicle and equip - CP - all bases	E	56	563		BUEXP	CAPITAL						1	E		0
+563400	654	Capitalized interest (enterprise only)	E	56	563		BUEXP	CAPITAL						1	E		
+563500	655	Capitalized Interest	E	56	563		BUEXP	CAPITAL						1	E		
+563510	656	Capitalized Interest BES - sys generated	E	56	563		BUEXP	CAPITAL						1	E		
+563520	657	Capitalized Int Water - sys generated	E	56	563		BUEXP	CAPITAL						1	E		
+563600	658	Capital Interest on overhead	E	56	563		BUEXP	CAPITAL						1	E		
+563620	659	Capitalized Int on OH - Water sys gen	E	56	563		BUEXP	CAPITAL						1	E		
+564	128	CIP Capitalization Corrections												0	E		
+564100	660	Non-capital CIP	E	56	564		BUEXP	CAPITAL						1	E		
+565	129	Depreciation And Amortization												0	E		
+569	130	GAAP Losses From Asset Sales												0	E		
+57	85	Contingency												0	E		
+571	131	Contingency													E		
+571100	661	Unrestricted Contingency	E	57	571		FUEXP	CONT						1	E		
+571110	662	Salary Adjustment Contingency	E	57	571		FUEXP	CONT						1	E		
+571120	663	Rate Stabilization Contingency	E	57	571		FUEXP	CONT						1	E		
+571130	664	Policy Reserves	E	57	571		FUEXP	CONT						1	E		
+571140	665	Major Maintenance/Replacement Reserves	E	57	571		FUEXP	CONT						1	E		
+58	86	Miscellaneous Expenses												0	E		
+580	132	Miscellaneous Expenses												0	E		
+580000	666	DNU  Proceeds Disbursement - Modified Ac	E	58	580		BUEXP	EMS						1	E		
+580100	667	Internal loan remittances	E	58	580		FUEXP	BOND						1	E		
+581	133	Grants Related												0	E		
+581100	668	Grant IDC expenses	E	58	581		BUEXP	EMS						1	E		
+581500	669	Loans transferred through grants	E	58	581		FUEXP	BOND						1	E		
+589	134	Temporary Expense Conversion												0	E		
+589951	670	DNU - Temporary - zero bal expenses conv	E	59	589		FUEXP	CONT						1	E		
+589952	671	Temp - zero bal interagency exp conversi	E	59	589		FUEXP	FNDXFER						1	E		0
+589953	672	Temporary - payroll expense conv	E	59	589		BUEXP	PERSONAL						1	E		0
+589955	673	Temporary - capital asset expense conver	E	59	589		BUEXP	CAPITAL						1	E		
+589960	674	Interagency expense conversion	E	59	589		BUEXP	IMS						1	E		
+589961	675	I/A General Fund overhead exp conversion	E	59	589		FUEXP	FNDXFER						1	E		
+589962	676	I/A equipment cash transfers exp convers	E	59	589		BUEXP	IMS						1	E		
+589963	677	I/A federal grants transfers exp convers	E	59	589		FUEXP	FNDXFER						1	E		
+589964	678	I/A other cash transfers exp conversion	E	59	589		FUEXP	FNDXFER						1	E		
+59	87	Transfers, Conversion												0	E		
+599500	679	Equipment Rents	E	59	589		BUEXP	CAPITAL						1	E		0
+599600	680	WIP Buildings	E	59	589		BUEXP	CAPITAL						1	E		0
+599620	681	WIP Improvements to Land	E	59	589		BUEXP	CAPITAL						1	E		0
+599630	682	WIP Infrastructure	E	59	589		BUEXP	CAPITAL						1	E		0
+60	88	Internal Cost Elements												0	E		
+600	135	Internal Cost Elements												0	E		
+601	136	Overheads												0	E		
+601010	683	General Fund Overhead Passthrough	E	60	601		BUEXP	IMS						1	E		
+601020	684	Bureau Overhead	E	60	601		BUEXP	IMS						1	E		
+601021	685	Bureau Overhead - sys gen	E	60	601		BUEXP	IMS						1	E		
+601030	686	Capitalized Overhead	E	60	601		BUEXP	IMS						1	E		
+601031	687	Capitalized Overhead - sys gen	E	60	601		BUEXP	IMS						1	E		
+609	137	Settlement - ???													E		
+61	89	Labor Allocations												0	E		
+610	138	Labor Allocations												0	E		
+610010	688	Labor/Wages Allocation-Regular	E	61	610		BUEXP	PERSONAL						1	E		
+610020	689	Labor/Wages Allocation-Overtime	E	61	610		BUEXP	PERSONAL						1	E		
+610030	690	Labor/Wages Allocation-Premium	E	61	610		BUEXP	PERSONAL						1	E		
+610040	691	Labor/Wages Allocation-Accrued Leave	E	60	601		BUEXP	PERSONAL						1	E		
+610041	692	Labor/Wages Allocation-Accrued Leave - s	E	60	601		BUEXP	PERSONAL						1	E		
+610510	693	Labor Alloc:BTS-Bureau Assigned	E	61	610		BUEXP	PERSONAL						1	E		
+610520	694	Labor Alloc:BTS-Programs	E	61	610		BUEXP	PERSONAL						1	E		
+610530	695	Labor Alloc:Billable Services	E	61	610		BUEXP	PERSONAL						1	E		
+619	139	Labor Allocations													E		
+619010	696	Labor:MMS Work Order-Regular	E	61	619		BUEXP	PERSONAL						1	E		
+619020	697	Labor:MMS Work Order-Overtime and Premiu	E	61	619		BUEXP	PERSONAL						1	E		
+619030	698	Labor: MMS-Overtime	E	61	619		BUEXP	PERSONAL						1	E		
+619040	699	Labor: MMS-Premium Pay	E	61	619		BUEXP	PERSONAL						1	E		
+62	90	Internal Allocations												0	E		
+620	140	Equipment Allocations												0	E		
+620010	700	"""Eq Use:Sedans, Vans, Mini Pick Ups"""	E	62	620		BUEXP	IMS						1	E		
+620020	701	"""Eq Use:Dump,Svc,Flatbed,Full pickups"""	E	62	620		BUEXP	IMS						1	E		
+620030	702	"""Eq Use:Excavtr,Dozer,Backhoe,Grader """	E	62	620		BUEXP	IMS						1	E		
+620040	703	"""Eq Use:Pumps, Generators, Saws """	E	62	620		BUEXP	IMS						1	E		
+629	141	Equipment Allocation: MMS												0	E		
+629010	704	MMS Materials and Equipment Usage	E	62	629		BUEXP	IMS						1	E		0
+629011	705	Bureau Services 1	E	62	629		BUEXP	IMS						1	E		0
+629012	706	Bureau Services 2	E	62	629		BUEXP	IMS						1	E		0
+629013	707	Bureau Services 3	E	62	629		BUEXP	IMS						1	E		0
+629014	708	Bureau Services 4	E	62	629		BUEXP	IMS						1	E		0
+629015	709	Bureau Services 5	E	62	629		BUEXP	IMS						1	E		0
+64	13	Internal Revenues												0	R		
+640	59	Cash Transfers												0	R		
+640010	304	Gen Fund Overhead	R	64	640			FNDXFERS						1	R		
+640020	305	Cash Transfer Revenues	R	64	640			FNDXFERS						1	R		
+641	60	Internal Services Revenue												0	R		
+6410	62	Miscellaneous Internal Services												0	R		
+6411	63	CityFleet Services												0	R		
+641101	306	Direct Bill Services	R	64	641	6411		IAREV						1	R		
+641102	307	Fixed M&R (will go i	R	64	641	6411		IAREV						1	R		
+641103	308	Accidents only	R	64	641	6411		IAREV						1	R		
+641104	309	Non-Auto work orders	R	64	641	6411		IAREV						1	R		
+641105	310	Generator R&M	R	64	641	6411		IAREV						1	R		
+641106	311	Motor Pool	R	64	641	6411		IAREV						1	R		
+641107	312	Outfitting: Equipmen	R	64	641	6411		IAREV						1	R		
+641108	313	Fuel	R	64	641	6411		IAREV						1	R		
+641109	314	Purchase of New Vehi	R	64	641	6411		IAREV						1	R		
+641110	315	Vehicle Replacement	R	64	641	6411		IAREV						1	R		
+641111	316	Replacement Admin- E	R	64	641	6411		IAREV						1	R		
+641112	317	Leases	R	64	641	6411		IAREV						1	R		
+641113	318	Short Rentals 1-2 da	R	64	641	6411		IAREV						1	R		
+641114	319	Vehicle Upgrades	R	64	641	6411		IAREV						1	R		
+641115	320	Fuel Station Debt Service	R	64	641	6411		IAREV						1	R		0
+6412	64	Priniting & Distribution Services												0	R		
+641201	321	Copy/Print/Bind	R	64	641	6412		IAREV						1	R		
+641202	322	Pre-press	R	64	641	6412		IAREV						1	R		
+641203	323	1900 Bldg Services	R	64	641	6412		IAREV						1	R		
+641204	324	Copier Services	R	64	641	6412		IAREV						1	R		
+641205	325	New & Replacement Co	R	64	641	6412		IAREV						1	R		
+641206	326	Microfilm Services	R	64	641	6412		IAREV						1	R		
+641207	327	Microfilm File Maint	R	64	641	6412		IAREV						1	R		
+641208	328	Mail Sorting & Deliv	R	64	641	6412		IAREV						1	R		
+641209	329	US Mail Processing	R	64	641	6412		IAREV						1	R		
+641210	330	Postage	R	64	641	6412		IAREV						1	R		
+641211	331	Special Delivery	R	64	641	6412		IAREV						1	R		
+6413	65	Facilities Services												0	R		
+641301	332	Space Rent	R	64	641	6413		IAREV						1	R		
+641302	333	Other Services & Cha	R	64	641	6413		IAREV						1	R		
+641303	334	ID Cards	R	64	641	6413		IAREV						1	R		
+641304	335	Office Bldg Parking	R	64	641	6413		IAREV						1	R		
+641305	336	Property Management	R	64	641	6413		IAREV						1	R		
+641306	337	Project Management	R	64	641	6413		IAREV						1	R		
+641307	338	Operations & Mainten	R	64	641	6413		IAREV						1	R		
+6414	66	EBS Services													R		0
+641401	339	EBS Ongoing Support	R	64	641	6414		IAREV						1	R		
+641402	340	EBS Debt Service Project Financing	R	64	641	6414		IAREV						1	R		
+641403	341	EBS New Functionality and enhancements	R	64	641	6414		IAREV						1	R		
+6415	67	Technology Services												0	R		
+641501	342	800 MHz Access	R	64	641	6415		IAREV						1	R		
+641502	343	Radio & Video Equipm	R	64	641	6415		IAREV						1	R		
+641503	344	IRNE Data Allocation	R	64	641	6415		IAREV						1	R		
+641504	345	Telecomm Service	R	64	641	6415		IAREV						1	R		
+641505	346	Business Lines	R	64	641	6415		IAREV						1	R		
+641506	347	Data Lines	R	64	641	6415		IAREV						1	R		
+641507	348	Long Distrance	R	64	641	6415		IAREV						1	R		
+641508	349	Cellular Phones	R	64	641	6415		IAREV						1	R		
+641509	350	Engineering Billable	R	64	641	6415		IAREV						1	R		
+641510	351	Radio & Video Billab	R	64	641	6415		IAREV						1	R		
+641511	352	Telecomm Billable	R	64	641	6415		IAREV						1	R		
+641512	353	BTS Corporate Servic	R	64	641	6415		IAREV						1	R		
+641513	354	Enterprise Server	R	64	641	6415		IAREV						1	R		
+641514	355	Corporate Applicatio	R	64	641	6415		IAREV						1	R		
+641520	356	E-mail	R	64	641	6415		IAREV						1	R		
+641521	357	Internet Access	R	64	641	6415		IAREV						1	R		
+641522	358	Desktop Support	R	64	641	6415		IAREV						1	R		
+641523	359	Server Support	R	64	641	6415		IAREV						1	R		
+641524	360	Data Networks	R	64	641	6415		IAREV						1	R		
+641530	361	BTS Operations Billa	R	64	641	6415		IAREV						1	R		
+641531	362	Operations Passthrou	R	64	641	6415		IAREV						1	R		
+641532	363	Strategic Tech Billa	R	64	641	6415		IAREV						1	R		
+641533	364	Strategic Tech Passt	R	64	641	6415		IAREV						1	R		
+6416	68	Risk Management Services												0	R		
+641601	365	Liability	R	64	641	6416		IAREV						1	R		
+641602	366	Workers Compensation	R	64	641	6416		IAREV						1	R		
+641603	367	Property Insurance	R	64	641	6416		IAREV						1	R		
+641604	368	Commercial Insurance	R	64	641	6416		IAREV						1	R		
+641605	369	Occup. Health & Infc	R	64	641	6416		IAREV						1	R		
+641606	370	Flu Vaccinations	R	64	641	6416		IAREV						1	R		
+642	61	Bureau Services Revenue												0	R		
+6420	69	Miscellaneous Bureau Services												0	R		
+6421	70	Planning and Sustainability Services												0	R		
+642101	371	City Energy Challng	R	64	642	6421		IAREV						1	R		
+642105	372	Green Incentive Fund	R	64	642	6421		IAREV						1	R		
+642109	373	Inspection/Abatement	R	64	642	6421		IAREV						1	R		
+642113	374	Negotiation Services	R	64	642	6421		IAREV						1	R		
+642117	375	Neighborhood Cleanup	R	64	642	6421		IAREV						1	R		
+642121	376	Outreach/Education	R	64	642	6421		IAREV						1	R		
+642125	377	Permitting Services	R	64	642	6421		IAREV						1	R		
+642129	378	Planning Services	R	64	642	6421		IAREV						1	R		
+642133	379	Residential Siting	R	64	642	6421		IAREV						1	R		
+6422	71	Administrative Services												0	R		
+642201	380	Admin & Support	R	64	642	6422		IAREV						1	R		
+642205	381	Council Office Svs	R	64	642	6422		IAREV						1	R		
+642209	382	Document Imaging	R	64	642	6422		IAREV						1	R		
+642213	383	Facilities Rental	R	64	642	6422		IAREV						1	R		
+642217	384	Federal Representatn	R	64	642	6422		IAREV						1	R		
+642221	385	Financial Services	R	64	642	6422		IAREV						1	R		
+642225	386	GIS Services	R	64	642	6422		IAREV						1	R		
+642229	387	Hearings Officer	R	64	642	6422		IAREV						1	R		
+642233	388	Legal Services	R	64	642	6422		IAREV						1	R		
+642237	389	Miscellaneous	R	64	642	6422		IAREV						1	R		
+642241	390	Revenue Collection	R	64	642	6422		IAREV						1	R		
+642245	391	Staffing Support	R	64	642	6422		IAREV						1	R		
+642249	392	Training Services	R	64	642	6422		IAREV						1	R		
+642253	393	Management Services	R	64	642	6422		IAREV						1	R		
+6423	72	Parks Services												0	R		
+642301	394	Equipment Services	R	64	642	6423		IAREV						1	R		
+642305	395	Forestry Services	R	64	642	6423		IAREV						1	R		
+642309	396	Horticultural Svs	R	64	642	6423		IAREV						1	R		
+642313	397	Irrigation Services	R	64	642	6423		IAREV						1	R		
+642317	398	Landscape/Grounds	R	64	642	6423		IAREV						1	R		
+642321	399	Natural Area Maint	R	64	642	6423		IAREV						1	R		
+642325	400	Pest Management	R	64	642	6423		IAREV						1	R		
+642329	401	Turf Maintenance	R	64	642	6423		IAREV						1	R		
+6424	73	Fire Services												0	R		
+642401	402	Enhanced Safety Enfc	R	64	642	6424		IAREV						1	R		
+642405	403	Home Security/Locks	R	64	642	6424		IAREV						1	R		
+642409	404	Public Safety System	R	64	642	6424		IAREV						1	R		
+642413	405	Pensions	R	64	642	6424		IAREV						1	R		
+642417	406	Records Checks	R	64	642	6424		IAREV						1	R		
+642421	407	RTW/Light Duty	R	64	642	6424		IAREV						1	R		
+642425	408	Security Services	R	64	642	6424		IAREV						1	R		
+642429	409	Special Rescue	R	64	642	6424		IAREV						1	R		
+6425	74	Environmental Services												0	R		
+642501	410	Construction Svcs	R	64	642	6425		IAREV						1	R		
+642505	411	Coord Site Assess	R	64	642	6425		IAREV						1	R		
+642509	412	Endangrd Species Act	R	64	642	6425		IAREV						1	R		
+642513	413	Engineering Services	R	64	642	6425		IAREV						1	R		
+642517	414	Laboratory Services	R	64	642	6425		IAREV						1	R		
+642521	415	Material Testing	R	64	642	6425		IAREV						1	R		
+642525	416	Meter Maintenance	R	64	642	6425		IAREV						1	R		
+642529	417	Project/Constr Mgmt	R	64	642	6425		IAREV						1	R		
+642533	418	Revegetation	R	64	642	6425		IAREV						1	R		
+642537	419	Sampling/Monitoring	R	64	642	6425		IAREV						1	R		
+642541	420	Utilities	R	64	642	6425		IAREV						1	R		
+6426	75	Transportation and Maintenance Services												0	R		
+642601	421	Contract Management	R	64	642	6426		IAREV						1	R		
+642605	422	Electricl Maint Svcs	R	64	642	6426		IAREV						1	R		
+642609	423	Green Str Proj Svcs	R	64	642	6426		IAREV						1	R		
+642613	424	Parking Mgmt	R	64	642	6426		IAREV						1	R		
+642617	425	Pkg Enforcement Svcs	R	64	642	6426		IAREV						1	R		
+642621	426	Pkg Operation Svcs	R	64	642	6426		IAREV						1	R		
+642625	427	Right of Way Svcs	R	64	642	6426		IAREV						1	R		
+642629	428	Sewer Customer Resp	R	64	642	6426		IAREV						1	R		
+642633	429	Sewer Insp & Clean	R	64	642	6426		IAREV						1	R		
+642637	430	Sewer Repair	R	64	642	6426		IAREV						1	R		
+642641	431	Space Rent	R	64	642	6426		IAREV						1	R		
+642645	432	Stmwtr Customer Resp	R	64	642	6426		IAREV						1	R		
+642649	433	Stmwtr Insp & Clean	R	64	642	6426		IAREV						1	R		
+642650	434	Pollution Remediation Services	R	64	642	6426		IAREV						1	R		0
+642653	435	Stormwater Repair	R	64	642	6426		IAREV						1	R		
+642655	436	Street Patching	R	64	642	6426		IAREV						1	R		
+642657	437	Streetlight Svcs	R	64	642	6426		IAREV						1	R		
+642661	438	Structural Services	R	64	642	6426		IAREV						1	R		
+642665	439	Sump Maintenance	R	64	642	6426		IAREV						1	R		
+642669	440	Survey Services	R	64	642	6426		IAREV						1	R		
+642673	441	Traffic Operations	R	64	642	6426		IAREV						1	R		
+642677	442	Traffic Signal Svcs	R	64	642	6426		IAREV						1	R		
+642681	443	Transp Options Svcs	R	64	642	6426		IAREV						1	R		
+642685	444	Utility Locates	R	64	642	6426		IAREV						1	R		
+642689	445	WrkZne Barricade Svs	R	64	642	6426		IAREV						1	R		
+642693	446	WrkZne Traffc Review	R	64	642	6426		IAREV						1	R		
+65	91	Services internal												0	E		
+650	142	Cash Transfers												0	E		
+650010	710	General Fund Overhead	E	65	650		FUEXP	FNDXFER						1	E		
+650020	711	Cash transfer	E	65	650		FUEXP	FNDXFER						1	E		
+651	143	Internal Services												0	E		
+6511	145	CityFleet Services												0	E		
+651101	712	Repair and maintenance services	E	65	651	6511	BUEXP	IMS						1	E		
+651102	713	Fixed M&R	E	65	651	6511	BUEXP	IMS						1	E		
+651103	714	Accident repairs	E	65	651	6511	BUEXP	IMS						1	E		
+651104	715	Non-auto work orders	E	65	651	6511	BUEXP	IMS						1	E		
+651105	716	Generator R&M	E	65	651	6511	BUEXP	IMS						1	E		
+651106	717	Motor pool tickets	E	65	651	6511	BUEXP	IMS						1	E		
+651107	718	Outfitting: Equipment & new vehicle	E	65	651	6511	BUEXP	IMS						1	E		
+651108	719	Fuel	E	65	651	6511	BUEXP	IMS						1	E		
+651109	720	Purchase of new vehicles	E	65	651	6511	BUEXP	IMS						1	E		
+651110	721	Vehicle replacement	E	65	651	6511	BUEXP	IMS						1	E		
+651111	722	Replacement admin - E's only	E	65	651	6511	BUEXP	IMS						1	E		
+651112	723	Leases	E	65	651	6511	BUEXP	IMS						1	E		
+651113	724	Short Rentals 1-2 days	E	65	651	6511	BUEXP	IMS						1	E		
+651114	725	Vehicle upgrades	E	65	651	6511	BUEXP	IMS						1	E		
+651115	726	Fuel Station Debt Service	E	65	651	6511	BUEXP	IMS						1	E		0
+6512	146	Priniting & Distribution Services												0	E		
+651201	727	Copy/Print/Bind	E	65	651	6512	BUEXP	IMS						1	E		
+651202	728	Pre-press	E	65	651	6512	BUEXP	IMS						1	E		
+651203	729	1900 Bldg Services	E	65	651	6512	BUEXP	IMS						1	E		
+651204	730	Copier Services	E	65	651	6512	BUEXP	IMS						1	E		
+651205	731	New & Replacement Copiers	E	65	651	6512	BUEXP	IMS						1	E		
+651206	732	Microfilm Services	E	65	651	6512	BUEXP	IMS						1	E		
+651207	733	Microfilm File Maintenance	E	65	651	6512	BUEXP	IMS						1	E		
+651208	734	Mail Sorting & Delivery	E	65	651	6512	BUEXP	IMS						1	E		
+651209	735	US Mail Processing	E	65	651	6512	BUEXP	IMS						1	E		
+651210	736	Postage	E	65	651	6512	BUEXP	IMS						1	E		
+651211	737	Special Delivery	E	65	651	6512	BUEXP	IMS						1	E		
+6513	147	Facilities Services												0	E		
+651301	738	Space Rent	E	65	651	6513	BUEXP	IMS						1	E		
+651302	739	Other Services & Charges	E	65	651	6513	BUEXP	IMS						1	E		
+651303	740	ID Cards	E	65	651	6513	BUEXP	IMS						1	E		
+651304	741	Office Building Parking	E	65	651	6513	BUEXP	IMS						1	E		
+651305	742	Property Management	E	65	651	6513	BUEXP	IMS						1	E		
+651306	743	Project Management	E	65	651	6513	BUEXP	IMS						1	E		
+651307	744	Operations & Maintenance	E	65	651	6513	BUEXP	IMS						1	E		
+6514	148	EBS Services													E		0
+651401	745	EBS Ongoing Support	E	65	651	6514	BUEXP	IMS						1	E		
+651402	746	EBS Debt Service Project Financing	E	65	651	6514	BUEXP	IMS						1	E		
+651403	747	EBS New Functionality and enhancements	E	65	651	6514	BUEXP	IMS						1	E		
+6515	149	Technology Services												0	E		
+651501	748	800 MHz Access	E	65	651	6515	BUEXP	IMS						1	E		
+651502	749	Radio & Video Equipment	E	65	651	6515	BUEXP	IMS						1	E		
+651503	750	IRNE Data Allocation	E	65	651	6515	BUEXP	IMS						1	E		
+651504	751	Telecomm Service	E	65	651	6515	BUEXP	IMS						1	E		
+651505	752	Business Lines	E	65	651	6515	BUEXP	IMS						1	E		
+651506	753	Data Lines	E	65	651	6515	BUEXP	IMS						1	E		
+651507	754	Long Distance	E	65	651	6515	BUEXP	IMS						1	E		
+651508	755	Cellular Phones	E	65	651	6515	BUEXP	IMS						1	E		
+651509	756	Engineering Billable	E	65	651	6515	BUEXP	IMS						1	E		
+651510	757	Radio & Video Billable	E	65	651	6515	BUEXP	IMS						1	E		
+651511	758	Telecomm Billable	E	65	651	6515	BUEXP	IMS						1	E		
+651512	759	BTS Corporate Services	E	65	651	6515	BUEXP	IMS						1	E		
+651513	760	Enterprise Server	E	65	651	6515	BUEXP	IMS						1	E		
+651514	761	Corporate Applications	E	65	651	6515	BUEXP	IMS						1	E		
+651520	762	E-mail	E	65	651	6515	BUEXP	IMS						1	E		
+651521	763	Internet Access	E	65	651	6515	BUEXP	IMS						1	E		
+651522	764	Desktop Support	E	65	651	6515	BUEXP	IMS						1	E		
+651523	765	Server Support	E	65	651	6515	BUEXP	IMS						1	E		
+651524	766	Data Networks	E	65	651	6515	BUEXP	IMS						1	E		
+651530	767	BTS Operations Billable	E	65	651	6515	BUEXP	IMS						1	E		
+651531	768	Operations Passthrough	E	65	651	6515	BUEXP	IMS						1	E		
+651532	769	Strategic Technology Billable	E	65	651	6515	BUEXP	IMS						1	E		
+651533	770	Strategic Technology Passthrough	E	65	651	6515	BUEXP	IMS						1	E		
+6516	150	Risk Management Services												0	E		
+651601	771	Liability Insurance and Claims	E	65	651	6516	BUEXP	IMS						1	E		
+651602	772	Workers Compensation	E	65	651	6516	BUEXP	IMS						1	E		
+651603	773	Property Insurance	E	65	651	6516	BUEXP	IMS						1	E		
+651604	774	Commercial Insurance	E	65	651	6516	BUEXP	IMS						1	E		
+651605	775	Occupational Health & Infectious Disease	E	65	651	6516	BUEXP	IMS						1	E		
+651606	776	Flu Vaccinations	E	65	651	6516	BUEXP	IMS						1	E		
+652	144	Interagency Services												0	E		
+6521	151	Planning and Sustainability Services												0	E		
+652101	777	City Energy Challenge	E	65	652	6521	BUEXP	IMS						1	E		
+652105	778	Green Incentive Fund	E	65	652	6521	BUEXP	IMS						1	E		
+652109	779	Inspection/Abatement Services	E	65	652	6521	BUEXP	IMS						1	E		
+652113	780	Negotiation Services	E	65	652	6521	BUEXP	IMS						1	E		
+652117	781	Neighborhood Cleanup	E	65	652	6521	BUEXP	IMS						1	E		
+652121	782	Outreach and Education Services	E	65	652	6521	BUEXP	IMS						1	E		
+652125	783	Permitting Services	E	65	652	6521	BUEXP	IMS						1	E		
+652129	784	Planning Services	E	65	652	6521	BUEXP	IMS						1	E		
+652133	785	Community Residential Siting	E	65	652	6521	BUEXP	IMS						1	E		
+6522	152	Administrative Services												0	E		
+652201	786	Administration & Support Services	E	65	652	6522	BUEXP	IMS						1	E		
+652205	787	Council Office Services	E	65	652	6522	BUEXP	IMS						1	E		
+652209	788	Document Imaging	E	65	652	6522	BUEXP	IMS						1	E		
+652213	789	Facilities Rental	E	65	652	6522	BUEXP	IMS						1	E		
+652217	790	Federal Representation	E	65	652	6522	BUEXP	IMS						1	E		
+652221	791	Financial Services	E	65	652	6522	BUEXP	IMS						1	E		
+652225	792	GIS Services	E	65	652	6522	BUEXP	IMS						1	E		
+652229	793	Hearings Officer Services	E	65	652	6522	BUEXP	IMS						1	E		
+652233	794	Legal Services	E	65	652	6522	BUEXP	IMS						1	E		
+652237	795	Miscellaneous Services	E	65	652	6522	BUEXP	IMS						1	E		
+652241	796	Revenue Collection Services	E	65	652	6522	BUEXP	IMS						1	E		
+652245	797	Staffing Support	E	65	652	6522	BUEXP	IMS						1	E		
+652249	798	Training Services	E	65	652	6522	BUEXP	IMS						1	E		
+652253	799	Management Services	E	65	652	6522	BUEXP	IMS						1	E		
+6523	153	Parks Services												0	E		
+652301	800	Equipment Services	E	65	652	6523	BUEXP	IMS						1	E		
+652305	801	Forestry Services	E	65	652	6523	BUEXP	IMS						1	E		
+652309	802	Horticultural Services	E	65	652	6523	BUEXP	IMS						1	E		
+652313	803	Irrigation Services	E	65	652	6523	BUEXP	IMS						1	E		
+652317	804	Landscaping/Grounds Maintenance	E	65	652	6523	BUEXP	IMS						1	E		
+652321	805	Natural Area Maintenance	E	65	652	6523	BUEXP	IMS						1	E		
+652325	806	Pest Management Program	E	65	652	6523	BUEXP	IMS						1	E		
+652329	807	Turf Maintenance/Mowing	E	65	652	6523	BUEXP	IMS						1	E		
+6524	154	Fire Services												0	E		
+652401	808	Enhanced Safety Enforcement	E	65	652	6524	BUEXP	IMS						1	E		
+652405	809	Home Security/Locks	E	65	652	6524	BUEXP	IMS						1	E		
+652409	810	Public Safety Systems	E	65	652	6524	BUEXP	IMS						1	E		
+652413	811	Pensions	E	65	652	6524	BUEXP	IMS						1	E		
+652417	812	Records Checks	E	65	652	6524	BUEXP	IMS						1	E		
+652421	813	Return to Work/Light Duty	E	65	652	6524	BUEXP	IMS						1	E		
+652425	814	Security Services	E	65	652	6524	BUEXP	IMS						1	E		
+652429	815	Special Rescue Services	E	65	652	6524	BUEXP	IMS						1	E		
+6525	155	Environmental Services												0	E		
+652501	816	Construction Services	E	65	652	6525	BUEXP	IMS						1	E		
+652505	817	Coordinated Site Assessment	E	65	652	6525	BUEXP	IMS						1	E		
+652509	818	Endangered Species Act	E	65	652	6525	BUEXP	IMS						1	E		
+652513	819	Engineering Services	E	65	652	6525	BUEXP	IMS						1	E		
+652517	820	Laboratory Services	E	65	652	6525	BUEXP	IMS						1	E		
+652521	821	Material Testing Services	E	65	652	6525	BUEXP	IMS						1	E		
+652525	822	Meter Maintenance	E	65	652	6525	BUEXP	IMS						1	E		
+652529	823	Project/Construction Management	E	65	652	6525	BUEXP	IMS						1	E		
+652533	824	Watershed Revegetation Services	E	65	652	6525	BUEXP	IMS						1	E		
+652537	825	Sampling and Monitoring	E	65	652	6525	BUEXP	IMS						1	E		
+652541	826	Utilities	E	65	652	6525	BUEXP	IMS						1	E		
+6526	156	Transportation and Maintenance Services												0	E		
+652601	827	Contract Management	E	65	652	6526	BUEXP	IMS						1	E		
+652605	828	Electrical Maintenance Services	E	65	652	6526	BUEXP	IMS						1	E		
+652609	829	Green Street Project Services	E	65	652	6526	BUEXP	IMS						1	E		
+652613	830	Parking Management Services	E	65	652	6526	BUEXP	IMS						1	E		
+652617	831	Parking Enforcement Services	E	65	652	6526	BUEXP	IMS						1	E		
+652621	832	Parking Operation Services	E	65	652	6526	BUEXP	IMS						1	E		
+652625	833	Right of Way Services	E	65	652	6526	BUEXP	IMS						1	E		
+652629	834	Sewer Customer Response	E	65	652	6526	BUEXP	IMS						1	E		
+652633	835	Sewer Inspection & Cleaning	E	65	652	6526	BUEXP	IMS						1	E		
+652637	836	Sewer Repair	E	65	652	6526	BUEXP	IMS						1	E		
+652641	837	Space Rent	E	65	652	6526	BUEXP	IMS						1	E		
+652645	838	Drainage Customer Response	E	65	652	6526	BUEXP	IMS						1	E		
+652649	839	Drainage Inspection & Cleaning	E	65	652	6526	BUEXP	IMS						1	E		
+652650	840	Pollution Remediation Services	E	65	652	6526	BUEXP	IMS						1	E		0
+652653	841	Drainage Repair	E	65	652	6526	BUEXP	IMS						1	E		
+652655	842	Street Patching	E	65	652	6526	BUEXP	IMS						1	E		
+652657	843	Streetlight Services	E	65	652	6526	BUEXP	IMS						1	E		
+652661	844	Structural Services	E	65	652	6526	BUEXP	IMS						1	E		
+652665	845	Sump Maintenance	E	65	652	6526	BUEXP	IMS						1	E		
+652669	846	Survey Services	E	65	652	6526	BUEXP	IMS						1	E		
+652673	847	Traffic Operations Services	E	65	652	6526	BUEXP	IMS						1	E		
+652677	848	Traffic Signal Services	E	65	652	6526	BUEXP	IMS						1	E		
+652681	849	Transportation Options Services	E	65	652	6526	BUEXP	IMS						1	E		
+652685	850	Utility locates	E	65	652	6526	BUEXP	IMS						1	E		
+652689	851	Work Zone Barricade Services	E	65	652	6526	BUEXP	IMS						1	E		
+652693	852	Work Zone Traffic Control Review	E	65	652	6526	BUEXP	IMS						1	E		
+BEGBAL	861	Budgeted Beginning Fund Balance												0	R		
+BNDNT	868	Bond and Note Proceeds												0	R		
+BOND	858	Debt Service												0	E		
+BUEXP	877	Bureau Expense												0	E		
+CAPITAL	857	Capital Outlay												0	E		
+CONT	860	Contingency												0	E		
+DIFF	886	Difference												0	E		
+E	76	Expenses												0	E		
+EMS	855	External Materials and Services												0	E		
+ENDBAL	853	Unappropriated Fund Balance												0	E		
+FNDXFER	859	Fund Transfers - Expense												0	E		
+FNDXFERS	867	Fund Transfers - Revenue												0	R		
+FTE_FT	872	Full-Time Positions	FTE_TOT											1	E		
+FTE_LT	874	Limited Term Positions	FTE_TOT											1	E		
+FTE_PT	873	Part-Time Positions	FTE_TOT											1	E		
+FTE_TOT	875	Total Full-Time Equivalents													E		
+FUEXP	878	Fund Expense													E		
+GFD	870	General Fund Discretionary												0	R		
+GTR	879	General Transportation Revenue													R		
+IAREV	866	Interagency Revenue												0	R		
+IMS	856	Internal Materials and Services												0	E		
+INTERGOV	865	Intergovernmental Revenues													R		0
+LICENSES	863	Licenses & Permits													R		
+MISC	869	Miscellaneous Sources												0	R		
+NET	880	Net Revenues - Expenditures												0	E		
+OVD	871	General Fund Overhead												0	R		
+PERCHG	881	Percent Change												0	E		
+PERSONAL	854	Personnel Services												0	E		
+PM#1	888	PM#1													P		
+PM#10	897	PM#10													P		
+PM#11	898	PM#11													P		
+PM#12	899	PM#12													P		
+PM#13	900	PM#13													P		
+PM#14	901	PM#14													P		
+PM#15	902	PM#15													P		
+PM#16	903	PM#16													P		
+PM#17	904	PM#17													P		
+PM#18	905	PM#18													P		
+PM#19	906	PM#19													P		
+PM#2	889	PM#2												0	P		
+PM#20	907	PM#20													P		
+PM#3	890	PM#3													P		
+PM#4	891	PM#4													P		
+PM#5	892	PM#5													P		
+PM#6	893	PM#6													P		
+PM#7	894	PM#7													P		
+PM#8	895	PM#8													P		
+PM#9	896	PM#9													P		
+POS	876	Position Count												1	E		
+R	1	Revenue												0	R		
+SC	864	Charges for Services												0	R		
+SUBTOTAL	885	Sub Total												0	B		
+TAXES	862	Taxes												0	R		
+TEMP	887	Temporary holding account												0	E		
+TOTAL	882	Total												0	B		
+TOTAL_EXP	883	Total Expenses													E		
+TOTAL_REV	884	Total Revenues													R		

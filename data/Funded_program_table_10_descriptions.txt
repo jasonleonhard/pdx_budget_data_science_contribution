@@ -1,0 +1,1 @@
+id	description	seqBZA001	North	1BZA002	Northeast	2BZA003	East	3BZA004	Southeast	4BZA005	Southwest	5BZA006	West	6BZA007	Northwest	7BZA008	Citywide	8BZA009	Central City	9BZA010	Undetermined	10BZA011	Northeast/Southeast	11						AW == tbl9		
